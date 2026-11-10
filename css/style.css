@@ -1,0 +1,59 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+body {
+    background-color: #051f20;
+    font-family: sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: #DAF1DE;
+    margin-top: 50px;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+p {
+    text-align: center;
+    color: #8eb69b;
+    font-size: 18px;
+}
+
+.calculadora {
+    background-color: #235247;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(202, 235, 222, 0.466);
+    max-width: 600px;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: #DAF1DE;
+}
+
+
+input[type="number"], select{
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: inherit;
+}
+
+button {
+    padding: 10px;
+    background-color: #DAF1DE;
+    color: #051f20;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: 700;
+    font-family: inherit;
+}
+
+span {
+    font-weight: 700;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Calculadora de Puntos</title>
+</head>
+<body>
+    <h1>Calculadora de Puntos</h1>
+    <p>Ingrese los datos</p>
+    <div class="calculadora">
+        <label for="cantidad">Importe:</label>
+        <input type="number" id="cantidad" name="cantidad" placeholder="Ingrese el importe consumido">
+        <label for="categoria">Categoría:</label>
+        <select id="categoria" name="categoria">
+            <option value="viajes">Viajes</option>
+            <option value="restaurantes">Restaurantes</option>
+            <option value="otros">Otros</option>
+        </select>
+        <label for="moneda">Moneda:</label>
+        <select id="moneda" name="moneda">
+            <option value="dolares">USD</option>
+            <option value="soles">S/</option>
+            <option value="euros">EUR</option>
+        </select>
+        <button id="calcular">Calcular</button>
+        <span>Resultado: <output id="resultado"></output></span>
+    </div>
+
+    
+    
+    <script src="js/script.js"></script>
+</body>
+</html>
