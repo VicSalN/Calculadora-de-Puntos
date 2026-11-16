@@ -1,6 +1,4 @@
-# [Nombre del proyecto]
-
-Calculadora de Puntos
+# Calculadora de Puntos
 
 ## Funcionalidades
 
